@@ -1,0 +1,27 @@
+{
+  "name": "backbone-sync-deferred",
+  "version": "0.0.1",
+  "description": "Override Backbone.sync for a lightweight and seamless integration of promise with Backbone",
+  "main": "backbone-sync-deferred.bundle.min.js",
+  "scripts": {
+    "test": "mocha tests/tests.js --reporter nyan",
+    "postinstall": "npm install -g mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "backbone",
+    "deferred",
+    "promise",
+    "asynchronous"
+  ],
+  "author": "Nicolas Kermarc <@spacenick>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.6.1",
+    "backbone": "~1.0.0",
+    "jquery": "~1.8.3",
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}
