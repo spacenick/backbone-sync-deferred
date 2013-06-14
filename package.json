@@ -21,7 +21,6 @@
     "backbone": "~1.0.0",
     "jquery": "~1.8.3",
     "grunt": "~0.4.1",
-    "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-uglify": "~0.2.2"
   }
 }
