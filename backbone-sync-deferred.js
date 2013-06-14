@@ -34,7 +34,7 @@
     // Override error
     options.error = function(model, response, options) {
       if (origError) origError(model, response, options);
-      return deferred.reject(response.responseText);
+      return deferred.reject(response);
     };
 
     origSync(method, model, options);
