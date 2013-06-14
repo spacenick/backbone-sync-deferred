@@ -19,3 +19,5 @@ function(response){
   console.log(response.statusText);
 });
 ```
+
+And basically use them on every methods that is using Backbone.sync (collection fetch, model save, etc....)
