@@ -4,7 +4,7 @@ Ultra lightweight & seamless Backbone.sync override to work with promises.
 
 Just include the script after backbone. And you'll be able to do :
 
-‘‘‘javascript
+```javascript
 var myModel = new Backbone.Model();
 myModel.url = "https://my.balling-api.com/whatever";
 
@@ -17,5 +17,4 @@ myModel.fetch().then(function(data){
 function(response){
   console.log(response.statusText);
 });
-
-‘‘‘
+```
