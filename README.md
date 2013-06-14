@@ -1,3 +1,5 @@
+### Backbone-sync-deferred
+
 Ultra lightweight & seamless Backbone.sync override to work with promises.
 
 Just include the script after backbone. And you'll be able to do :
